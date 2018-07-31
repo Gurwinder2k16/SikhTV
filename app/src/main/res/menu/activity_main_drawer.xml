@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+     <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about_app"
+                android:title="About Application" />
+            <item
+                android:id="@+id/amritvela"
+                android:title="Amritvela Tv" />
+            <item
+                android:id="@+id/web"
+                android:title="WebSite" />
+            <item
+                android:id="@+id/fb_page"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/you_page"
+                android:title="Youtube" />
+        </menu>
+    </item>
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/other"
+                android:title="Others" />
+            <item
+                android:id="@+id/exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+</group>
+
+
+</menu>
